@@ -1,9 +1,10 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
+using System.Collections;
+using System.Collections.Generic;
+
 
 public class PlayerMove : MonoBehaviour
 {
-    public Vector2 movement;
 
     public float speed = 5;
 
@@ -16,10 +17,20 @@ public class PlayerMove : MonoBehaviour
 
 private void FixedUpdate() 
 {
-    rb2d.AddForce(movement * speed);
+   MovePlayer();
 }
-    public void OnMove(InputValue inputValue)
-    {
-        movement = inputValue.Get<Vector2>();
-    }
+   void MovePlayer()
+   {
+    float horizontalMove = Input.GetAxisRaw("Horizontal");
+    float verticalMove = Input.GetAxisRaw("Vertical");
+
+    rb2d.linearVelocity = new Vector2(horizontalMove * speed, verticalMove * speed);
+
+    // Quando movemos no eixo Y, também queremos mover no eixo Z.
+        if (verticalMove != 0)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + (verticalMove * speed * Time.deltaTime));
+        }
+   
+   }
 }
