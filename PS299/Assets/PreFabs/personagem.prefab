@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 8556269405033644638}
   m_Layer: 0
   m_Name: personagem
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -347,11 +347,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3422e51ff6c6e3246be1eab1071963b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5.96
+  speed: 6
   rb2d: {fileID: 6744697972001001308}
   _trailRenderer: {fileID: 8556269405033644638}
-  _dashingVelocity: 14
-  _dashingTime: 0.5
+  _dashingVelocity: 40
+  _dashingTime: 0.2
+  _isDashing: 0
 --- !u!114 &-4464732881737660198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,7 +367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sortableSprites:
   - spriteRenderer: {fileID: 7522359116235498478}
-    relativeOrder: 0
+    relativeOrder: -55
   _sortOffsetMarker: {fileID: 4489856376796040431}
 --- !u!96 &8556269405033644638
 TrailRenderer:
@@ -412,7 +413,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1641830163
   m_SortingLayer: 1
-  m_SortingOrder: -5
+  m_SortingOrder: 5
   m_Time: 0.5
   m_PreviewTimeScale: 1
   m_Parameters:
