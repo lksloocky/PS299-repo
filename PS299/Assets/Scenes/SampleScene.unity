@@ -143,12 +143,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52336920}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.05, y: 0.83, z: -3.0302246}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.2430038, y: -1.0508096, z: -0.07181978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 934280303}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &90183114 stripped
 Transform:
@@ -242,6 +242,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &539128292 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2312205853208897561, guid: c238a432f82d3864898cbd893b7a9069, type: 3}
+  m_PrefabInstance: {fileID: 8755031109462100154}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &578708092
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,12 +271,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578708092}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.07, y: 6.93, z: -3.0302246}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.7769966, y: 5.0491905, z: -0.07181978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 934280303}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &827692689
 GameObject:
@@ -297,11 +302,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827692689}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.07, y: 0.85, z: -3.0302246}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.7769966, y: -1.0308095, z: -0.07181978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 934280303}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &934280302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 934280303}
+  m_Layer: 0
+  m_Name: Patrulha
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &934280303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934280302}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -19.54, y: 14.45, z: -2.9584048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 578708093}
+  - {fileID: 827692690}
+  - {fileID: 1337415343}
+  - {fileID: 52336921}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1018811138 stripped
@@ -338,12 +378,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337415342}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.03, y: 6.93, z: -3.0302246}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.2630024, y: 5.0491905, z: -0.07181978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 934280303}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1381316991
 GameObject:
@@ -613,7 +653,7 @@ Transform:
   m_GameObject: {fileID: 1887927887}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -32.07, y: 4.56, z: 0}
+  m_LocalPosition: {x: -18.79, y: 15.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -672,8 +712,11 @@ MonoBehaviour:
   - {fileID: 827692690}
   - {fileID: 1337415343}
   - {fileID: 52336921}
-  speed: 0
+  speed: 2
   _waitTime: 1
+  chaseSpeed: 5
+  _player: {fileID: 539128292}
+  _range: {fileID: 1887927888}
 --- !u!1001 &1973305618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -988,7 +1031,4 @@ SceneRoots:
   - {fileID: 1381316992}
   - {fileID: 1887927891}
   - {fileID: 361887908}
-  - {fileID: 578708093}
-  - {fileID: 827692690}
-  - {fileID: 1337415343}
-  - {fileID: 52336921}
+  - {fileID: 934280303}
