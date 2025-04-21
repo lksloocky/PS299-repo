@@ -1017,6 +1017,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: personagem
       objectReference: {fileID: 0}
+    - target: {fileID: 5347847353575957570, guid: c238a432f82d3864898cbd893b7a9069, type: 3}
+      propertyPath: orthographic size
+      value: 8.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522359116235498478, guid: c238a432f82d3864898cbd893b7a9069, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9cf41d76fd9d9ac448006178edcd7651, type: 3}
+    - target: {fileID: 7522359116235498478, guid: c238a432f82d3864898cbd893b7a9069, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522359116235498478, guid: c238a432f82d3864898cbd893b7a9069, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522359116235498478, guid: c238a432f82d3864898cbd893b7a9069, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522359116235498478, guid: c238a432f82d3864898cbd893b7a9069, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
