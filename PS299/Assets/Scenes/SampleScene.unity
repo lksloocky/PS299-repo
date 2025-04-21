@@ -1017,6 +1017,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: personagem
       objectReference: {fileID: 0}
+    - target: {fileID: 4681186977674758758, guid: c238a432f82d3864898cbd893b7a9069, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681186977674758758, guid: c238a432f82d3864898cbd893b7a9069, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 6.4
+      objectReference: {fileID: 0}
     - target: {fileID: 5347847353575957570, guid: c238a432f82d3864898cbd893b7a9069, type: 3}
       propertyPath: orthographic size
       value: 8.02
