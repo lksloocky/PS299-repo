@@ -21,7 +21,7 @@ public class DashSpace : MonoBehaviour
             //acessa o script PlayerMove
             PlayerMove _playerMove = _collision.GetComponent<PlayerMove>();
 
-            if(_playerMove != null && _playerMove._isDashing)
+            if(_playerMove != null && _playerMove._state == "DASHING")
             {
                 _collider.isTrigger = true;
             }
